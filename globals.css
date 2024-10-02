@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 5px 5px 5px rgba(0,0, 0, 0)
+}
+.child-container{
+  width: fit-content;
+  height: 200px;
+  margin: 40px;
+  font-size: 50px;
+  font-weight: 900;
+}
+.profile-img{
+  border-radius: 50px;
+
+}
+#name{
+  font: pink;
+}
+.pinkcolor{
+  color: pink;
+}
+
+.NavBar{
+  background-color: pink;
+  color: black;
+}
+
+.Header-buttons{
+ 
+
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  font-size: 20px;
+  justify-content: center;
+  margin: left 10px;
+  gap: 15px;
+
+
+}
+#contact{
+  font: bold;
+  color: blue;
+
+}
+#about{
+  font: bold;
+  color: brown;
+}
+
+.footer{
+  background-color:skyblue;
+  color: black;
+}
+
+.footer-buttons{
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  font-size: 20px;
+  justify-content: center;
+  margin: left 10px;
+  gap: 15px;
+
+}
+
+
+
